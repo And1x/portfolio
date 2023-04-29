@@ -8,7 +8,11 @@ import Skills from "./components/Skills";
 function App() {
   const [dark, setDark] = useState(false);
   return (
-    <div className={`flex flex-col min-w-[21rem] ${dark ? "dark" : ""}`}>
+    <div
+      className={`flex flex-col items-stretch min-w-[21rem] min-h-screen ${
+        dark ? "dark" : ""
+      }`}
+    >
       <Navbar toggleDark={() => setDark(!dark)} />
       <About />
       <Portfolio />

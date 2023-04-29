@@ -2,7 +2,7 @@ export default function Skills() {
   return (
     <section
       id="skills"
-      className="bg-gray-50 dark:bg-gray-800 sm:pl-20 px-6 sm:py-16 py-6"
+      className="flex-grow-[2] bg-gray-50 dark:bg-gray-800 sm:pl-20 px-6 sm:py-16 py-6"
     >
       <div className="flex flex-col items-center">
         <h1 className="text-3xl sm:text-5xl text-slate-900 dark:text-white text-center">
