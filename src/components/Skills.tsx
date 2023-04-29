@@ -2,13 +2,13 @@ export default function Skills() {
   return (
     <section
       id="skills"
-      className="bg-gray-50 dark:bg-gray-800 sm:pl-20 pl-10 py-16"
+      className="bg-gray-50 dark:bg-gray-800 sm:pl-20 px-6 sm:py-16 py-6"
     >
       <div className="flex flex-col items-center">
-        <h1 className="text-5xl text-slate-900 dark:text-white">
+        <h1 className="text-3xl sm:text-5xl text-slate-900 dark:text-white text-center">
           Skills and Experience
         </h1>
-        <p className="text-xl text-gray-700 dark:text-gray-300 w-[65%] text-center mt-4">
+        <p className=" text-gray-700 dark:text-gray-300 sm:w-[65%] sm:text-xl text-center mt-4">
           I am an aspiring full-stack developer with a solid foundation in
           various technologies, including Go, Typescript, PostgreSQL, React,
           Tailwind, and Bitcoin Lightning. Although I have no professional
@@ -21,7 +21,7 @@ export default function Skills() {
         <div className="flex flex-wrap gap-5 mt-7 ">
           <svg
             // fill="#F7DF1E"
-            className="fill-[#F7DF1E] dark:fill-white w-12 h-12 bg-black dark:bg-inherit"
+            className="fill-[#F7DF1E] dark:fill-white sm:w-12 sm:h-12 w-8 h-8 bg-black dark:bg-inherit"
             role="img"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
@@ -31,7 +31,7 @@ export default function Skills() {
           </svg>
           <svg
             // fill="#E34F26"
-            className="fill-[#E34F26] dark:fill-white w-12 h-12"
+            className="fill-[#E34F26] dark:fill-white sm:w-12 sm:h-12 w-8 h-8"
             role="img"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
@@ -41,7 +41,7 @@ export default function Skills() {
           </svg>
           <svg
             // fill="#1572B6"
-            className="fill-[#1572B6] dark:fill-white w-12 h-12"
+            className="fill-[#1572B6] dark:fill-white sm:w-12 sm:h-12 w-8 h-8"
             role="img"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
@@ -51,7 +51,7 @@ export default function Skills() {
           </svg>
           <svg
             // fill="#00ADD8"
-            className="fill-[#00ADD8] dark:fill-white w-12 h-12"
+            className="fill-[#00ADD8] dark:fill-white sm:w-12 sm:h-12 w-8 h-8"
             role="img"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
@@ -61,7 +61,7 @@ export default function Skills() {
           </svg>
           <svg
             // fill="#4169E1"
-            className="fill-[#4169E1] dark:fill-white w-12 h-12"
+            className="fill-[#4169E1] dark:fill-white sm:w-12 sm:h-12 w-8 h-8"
             role="img"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
@@ -71,7 +71,7 @@ export default function Skills() {
           </svg>
           <svg
             // fill="#06B6D4"
-            className="fill-[#06B6D4] dark:fill-white w-12 h-12"
+            className="fill-[#06B6D4] dark:fill-white sm:w-12 sm:h-12 w-8 h-8"
             role="img"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
@@ -81,7 +81,7 @@ export default function Skills() {
           </svg>
           <svg
             // fill="#61DAFB"
-            className="fill-[#61DAFB] dark:fill-white w-12 h-12"
+            className="fill-[#61DAFB] dark:fill-white sm:w-12 sm:h-12 w-8 h-8"
             role="img"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
@@ -91,7 +91,7 @@ export default function Skills() {
           </svg>
           <svg
             // fill="#F05032"
-            className="fill-[#F05032] dark:fill-white w-12 h-12"
+            className="fill-[#F05032] dark:fill-white sm:w-12 sm:h-12 w-8 h-8"
             role="img"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
@@ -101,7 +101,7 @@ export default function Skills() {
           </svg>
           <svg
             // fill="#4EAA25"
-            className="fill-[#4EAA25] dark:fill-white w-12 h-12"
+            className="fill-[#4EAA25] dark:fill-white sm:w-12 sm:h-12 w-8 h-8"
             role="img"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
@@ -111,7 +111,7 @@ export default function Skills() {
           </svg>
           <svg
             // fill="#F7931A"
-            className="fill-[#F7931A] dark:fill-white w-12 h-12"
+            className="fill-[#F7931A] dark:fill-white sm:w-12 sm:h-12 w-8 h-8"
             role="img"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
