@@ -1,13 +1,14 @@
 export default function ProjectCard({ project }: { project: Project }) {
   return (
-    <div className="bg-white dark:bg-slate-800 border dark:text-white min-w-[28rem] max-w-[25vw] p-2 shadow-lg border-slate-300 rounded dark:border-slate-600">
+    <div className="bg-white dark:bg-slate-800 border dark:text-white min-w-[18rem] max-w-[25vw] p-2 shadow-lg border-slate-300 rounded dark:border-slate-600">
       <div className="border-b pb-2 border-b-slate-400 dark:border-b-orange-400">
-        <h4>{project.title}</h4>
-        <p>{project.content}</p>
+        <h4 className="text-xl text-black dark:text-white">{project.title}</h4>
+        <p className="p-1 text-gray-900 dark:text-gray-100">
+          {project.content}
+        </p>
         {/* todo: maximize image */}
-        <a href="#">
-          <img src={project.img.url} alt={project.img.alt} />
-        </a>
+
+        <img src={project.img.url} alt={project.img.alt} className="w-fit" />
       </div>
       <div className="flex gap-1 justify-end pt-2">
         <a href={project.github}>

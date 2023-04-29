@@ -6,7 +6,7 @@ const projetcList: Project[] = [
     content:
       "Simple CLI TOOL to set time to work. Saves completed session in JSON files on HD.",
     img: {
-      url: "https://user-images.githubusercontent.com/92379947/198682656-b2ae0833-d128-4f8c-a8e2-f0c69d3f3c5e.png",
+      url: "/src/assets/preview_project_pomodoro.png",
       alt: "Project Pomodoro",
     },
     tech: ["go"],
@@ -14,27 +14,27 @@ const projetcList: Project[] = [
     website: "",
   },
   {
-    title: "Pomodoro Work Tracker - CLI",
+    title: "Bitcoin - Lightning Guides - WebApp",
     content:
-      "Simple CLI TOOL to set time to work. Saves completed session in JSON files on HD.",
+      "Post eg. Guides in Markdown Format and get paid in Bitcoin. Users and Visitors can pay for Posts they like.",
     img: {
-      url: "https://user-images.githubusercontent.com/92379947/198682656-b2ae0833-d128-4f8c-a8e2-f0c69d3f3c5e.png",
-      alt: "Project Pomodoro",
+      url: "",
+      alt: "",
     },
-    tech: ["go"],
-    github: "https://github.com/And1x/pomodoro",
-    website: "https://stacker.news",
+    tech: ["Go, Postgres, LNbits"],
+    github: "https://github.com/And1x/bln-guides",
+    website: "https://bln-guides.onrender.com",
   },
   {
-    title: "Pomodoro Work Tracker - CLI",
+    title: "Nostr Search and Resources",
     content:
-      "Simple CLI TOOL to set time to work. Saves completed session in JSON files on HD.",
+      "React Application to Search Notes and Profiles on Nostr. Section with Lists of great Resources about Nostr.",
     img: {
-      url: "https://user-images.githubusercontent.com/92379947/198682656-b2ae0833-d128-4f8c-a8e2-f0c69d3f3c5e.png",
-      alt: "Project Pomodoro",
+      url: "",
+      alt: "",
     },
-    tech: ["go"],
-    github: "https://github.com/And1x/pomodoro",
+    tech: ["TS, React, Tailwind"],
+    github: "",
     website: "",
   },
 ];
