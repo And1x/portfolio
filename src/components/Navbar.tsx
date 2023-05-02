@@ -7,21 +7,21 @@ export default function Navbar({ toggleDark }: { toggleDark: () => void }) {
       <div className="flex justify-between items-center text-xl">
         <nav>
           <a
-            href="#About"
+            href="/#about"
             className="mr-4 hover:underline hover:decoration-orange-500"
           >
             Andi
           </a>
 
           <a
-            href="#Projects"
+            href="/#projects"
             className="mr-4 hover:underline hover:decoration-orange-500"
           >
             Projects
           </a>
 
           <a
-            href="#Skills"
+            href="/#skills"
             className="hover:underline hover:decoration-orange-500"
           >
             Skills
