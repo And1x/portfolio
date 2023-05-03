@@ -1,4 +1,5 @@
 export default function ProjectCard({ project }: { project: Project }) {
+  const projectId = project.title.replace(" ", "-");
   return (
     <div className="bg-white dark:bg-slate-800 border dark:text-white min-w-[18rem] max-w-[25vw] p-2 shadow-lg border-slate-300 rounded dark:border-slate-600">
       <div className="border-b pb-2 border-b-slate-400 dark:border-b-orange-400">
@@ -6,13 +7,24 @@ export default function ProjectCard({ project }: { project: Project }) {
         <p className="p-1 text-gray-900 dark:text-gray-100">
           {project.content}
         </p>
-        {/* todo: maximize image */}
-
-        <img src={project.img.url} alt={project.img.alt} className="w-fit" />
+        <div className="flex justify-center p-2">
+          <img
+            src={project.img.url}
+            alt={project.img.alt}
+            className="w-fit cursor-zoom-in"
+            id={projectId}
+            onClick={() => {
+              document.getElementById(projectId)?.requestFullscreen();
+            }}
+          />
+        </div>
       </div>
-      <div className="flex gap-1 justify-end pt-2">
-        <a href={project.github}>
-          <div className="w-8 h-8 rounded hover:outline  hover:outline-orange-600 hover:dark:outline-orange-400">
+      <div className="flex gap-3 justify-end pt-2">
+        <a
+          href={project.github}
+          className="flex flex-col justify-center items-center rounded hover:outline  hover:outline-orange-600 hover:dark:outline-orange-400"
+        >
+          <div className="w-8 h-8 ">
             <svg viewBox="0 0 98 96" xmlns="http://www.w3.org/2000/svg">
               <path
                 fill-rule="evenodd"
@@ -22,11 +34,15 @@ export default function ProjectCard({ project }: { project: Project }) {
               />
             </svg>
           </div>
+          <span className="text-xs">source</span>
         </a>
 
         {project.website ? (
-          <a href={project.website}>
-            <div className="w-8 h-8 rounded hover:outline  hover:outline-orange-600 hover:dark:outline-orange-400">
+          <a
+            href={project.website}
+            className="flex flex-col justify-center items-center rounded hover:outline  hover:outline-orange-600 hover:dark:outline-orange-400"
+          >
+            <div className="w-8 h-8">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
@@ -42,6 +58,7 @@ export default function ProjectCard({ project }: { project: Project }) {
                 ></path>
               </svg>
             </div>
+            <span className="text-xs">visit</span>
           </a>
         ) : null}
       </div>
