@@ -19,6 +19,7 @@ export default function ProjectCard({ project }: { project: Project }) {
           />
         </div>
       </div>
+
       <div className="flex gap-3 justify-end pt-2">
         <a
           href={project.github}
