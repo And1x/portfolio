@@ -1,5 +1,6 @@
 import { ReactComponent as GithubIcon } from "/src/assets/icons/github.svg";
 import { ReactComponent as LinkIcon } from "/src/assets/icons/link.svg";
+import ListTechIcons from "./ListTechIcons";
 
 export default function ProjectCard({ project }: { project: Project }) {
   const projectId = project.title.replace(" ", "-");
@@ -20,6 +21,12 @@ export default function ProjectCard({ project }: { project: Project }) {
               document.getElementById(projectId)?.requestFullscreen();
             }}
           />
+        </div>
+      </div>
+
+      <div className="border-b py-2 border-b-slate-400  dark:border-b-orange-400">
+        <div className="flex gap-2">
+          <ListTechIcons techList={project.tech} size={"6"} hasTitle={false} />
         </div>
       </div>
 
