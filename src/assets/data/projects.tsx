@@ -6,7 +6,7 @@ const projetcList: Project[] = [
     content:
       "Simple CLI TOOL to set time to work. Saves completed session in JSON files on HD.",
     img: {
-      url: "/src/assets/preview_project_pomodoro.png",
+      url: "/src/assets/img/preview_project_pomodoro.png",
       alt: "Preview Project Pomodoro",
     },
     tech: ["go", "bash"],
@@ -18,7 +18,7 @@ const projetcList: Project[] = [
     content:
       "Post eg. Guides in Markdown Format and get paid in Bitcoin. Users and Visitors can pay for Posts they like.",
     img: {
-      url: "/src/assets/preview_project_blnguides_1.png",
+      url: "/src/assets/img/preview_project_blnguides_1.png",
       alt: "Preview Project BLN Guides",
     },
     tech: ["go", "postgresql", "html5", "css3", "bitcoin"],
@@ -30,7 +30,7 @@ const projetcList: Project[] = [
     content:
       "React Application to search Notes and Profiles on Nostr. Also with a section of great Resources about Nostr.",
     img: {
-      url: "/src/assets/preview_project_nostreact_1.png",
+      url: "/src/assets/img/preview_project_nostreact_1.png",
       alt: "Preview Project Nostreact",
     },
     tech: ["typescript", "react", "tailwind"],

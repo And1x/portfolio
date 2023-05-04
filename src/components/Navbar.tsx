@@ -1,5 +1,5 @@
-import SunIcon from "/src/assets/sun.svg";
-import MoonIcon from "/src/assets/moon.svg";
+import SunIcon from "/src/assets/icons/sun.svg";
+import MoonIcon from "/src/assets/icons/moon.svg";
 
 export default function Navbar({ toggleDark }: { toggleDark: () => void }) {
   return (
