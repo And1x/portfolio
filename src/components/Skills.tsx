@@ -1,15 +1,20 @@
-import { ReactComponent as JsIcon } from "/src/assets/icons/javascript.svg";
-import { ReactComponent as HTML5Icon } from "/src/assets/icons/html5.svg";
-import { ReactComponent as CSS3Icon } from "/src/assets/icons/css3.svg";
-import { ReactComponent as GoIcon } from "/src/assets/icons/go.svg";
-import { ReactComponent as PostgresqlIcon } from "/src/assets/icons/postgresql.svg";
-import { ReactComponent as TailwindIcon } from "/src/assets/icons/tailwindcss.svg";
-import { ReactComponent as ReactIcon } from "/src/assets/icons/react.svg";
-import { ReactComponent as GitIcon } from "/src/assets/icons/git.svg";
-import { ReactComponent as BashIcon } from "/src/assets/icons/bash.svg";
-import { ReactComponent as BitcoinIcon } from "/src/assets/icons/bitcoin.svg";
+import ListTechIcons from "./ListTechIcons";
 
 export default function Skills() {
+  const techList = [
+    "typescript",
+    "javascript",
+    "html5",
+    "css3",
+    "go",
+    "postgresql",
+    "tailwind",
+    "react",
+    "git",
+    "bash",
+    "bitcoin",
+  ];
+
   return (
     <section
       id="skills"
@@ -29,17 +34,8 @@ export default function Skills() {
           providing an exceptional user experience. I am eager to contribute my
           skills and grow as a full-stack developer on a team.
         </p>
-        <div className="flex flex-wrap gap-5 mt-7 ">
-          <JsIcon className="fill-[#F7DF1E] dark:fill-white sm:w-12 sm:h-12 w-8 h-8 bg-black dark:bg-inherit" />
-          <HTML5Icon className="fill-[#E34F26] dark:fill-white sm:w-12 sm:h-12 w-8 h-8" />
-          <CSS3Icon className="fill-[#1572B6] dark:fill-white sm:w-12 sm:h-12 w-8 h-8" />
-          <GoIcon className="fill-[#00ADD8] dark:fill-white sm:w-12 sm:h-12 w-8 h-8" />
-          <PostgresqlIcon className="fill-[#4169E1] dark:fill-white sm:w-12 sm:h-12 w-8 h-8" />
-          <TailwindIcon className="fill-[#06B6D4] dark:fill-white sm:w-12 sm:h-12 w-8 h-8" />
-          <ReactIcon className="fill-[#61DAFB] dark:fill-white sm:w-12 sm:h-12 w-8 h-8" />
-          <GitIcon className="fill-[#F05032] dark:fill-white sm:w-12 sm:h-12 w-8 h-8" />
-          <BashIcon className="fill-[#373737] dark:fill-white sm:w-12 sm:h-12 w-8 h-8" />
-          <BitcoinIcon className="fill-[#F7931A] dark:fill-white sm:w-12 sm:h-12 w-8 h-8" />
+        <div className="flex flex-wrap gap-4 mt-7">
+          <ListTechIcons techList={techList} size={"12"} hasTitle={true} />
         </div>
       </div>
     </section>

@@ -27,12 +27,12 @@ export default function ListTechIcons({
     "12": "w-12 h-12",
     "14": "w-14 h-14",
   };
-
+  //
   const listIcons = techList.map((name) => {
     switch (name) {
       case "typescript":
         return (
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center gap-1">
             <TsIcon
               className={`${iconSize[size]} fill-[#3178C6] dark:fill-white`}
             />
@@ -41,7 +41,7 @@ export default function ListTechIcons({
         );
       case "javascript":
         return (
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center gap-1">
             <JsIcon
               className={`${iconSize[size]} fill-[#F7DF1E] dark:fill-white bg-black dark:bg-inherit`}
             />
@@ -50,7 +50,7 @@ export default function ListTechIcons({
         );
       case "html5":
         return (
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center gap-1">
             <HTML5Icon
               className={`${iconSize[size]} fill-[#E34F26] dark:fill-white`}
             />
@@ -59,7 +59,7 @@ export default function ListTechIcons({
         );
       case "css3":
         return (
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center gap-1">
             <CSS3Icon
               className={`${iconSize[size]} fill-[#1572B6] dark:fill-white`}
             />
@@ -68,7 +68,7 @@ export default function ListTechIcons({
         );
       case "go":
         return (
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center gap-1">
             <GoIcon
               className={`${iconSize[size]} fill-[#00ADD8] dark:fill-white`}
             />
@@ -77,7 +77,7 @@ export default function ListTechIcons({
         );
       case "postgresql":
         return (
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center gap-1">
             <PostgresqlIcon
               className={`${iconSize[size]} fill-[#4169E1] dark:fill-white `}
             />
@@ -86,7 +86,7 @@ export default function ListTechIcons({
         );
       case "tailwind":
         return (
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center gap-1">
             <TailwindIcon
               className={`${iconSize[size]} fill-[#06B6D4] dark:fill-white`}
             />
@@ -95,7 +95,7 @@ export default function ListTechIcons({
         );
       case "react":
         return (
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center gap-1">
             <ReactIcon
               className={`${iconSize[size]} fill-[#61DAFB] dark:fill-white`}
             />
@@ -104,7 +104,7 @@ export default function ListTechIcons({
         );
       case "git":
         return (
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center gap-1">
             <GitIcon
               className={`${iconSize[size]} fill-[#F05032] dark:fill-white`}
             />
@@ -113,7 +113,7 @@ export default function ListTechIcons({
         );
       case "bash":
         return (
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center gap-1">
             <BashIcon
               className={`${iconSize[size]} fill-[#373737] dark:fill-white`}
             />
@@ -122,7 +122,7 @@ export default function ListTechIcons({
         );
       case "bitcoin":
         return (
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center gap-1">
             <BitcoinIcon
               className={`${iconSize[size]} fill-[#F7931A] dark:fill-white`}
             />
