@@ -1,4 +1,4 @@
-import { Project } from "../components/ProjectCard";
+import { Project } from "../../components/ProjectCard";
 
 const projetcList: Project[] = [
   {
@@ -9,7 +9,7 @@ const projetcList: Project[] = [
       url: "/src/assets/preview_project_pomodoro.png",
       alt: "Preview Project Pomodoro",
     },
-    tech: ["go"],
+    tech: ["go", "bash"],
     github: "https://github.com/And1x/pomodoro",
     website: "",
   },
@@ -21,7 +21,7 @@ const projetcList: Project[] = [
       url: "/src/assets/preview_project_blnguides_1.png",
       alt: "Preview Project BLN Guides",
     },
-    tech: ["go", "postgresql", "bitcoin"],
+    tech: ["go", "postgresql", "html5", "css3", "bitcoin"],
     github: "https://github.com/And1x/bln-guides",
     website: "https://bln-guides.onrender.com",
   },

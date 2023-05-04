@@ -1,20 +1,7 @@
 import ListTechIcons from "./ListTechIcons";
+import { fullTechList } from "../assets/data/techIconList";
 
 export default function Skills() {
-  const techList = [
-    "typescript",
-    "javascript",
-    "html5",
-    "css3",
-    "go",
-    "postgresql",
-    "tailwind",
-    "react",
-    "git",
-    "bash",
-    "bitcoin",
-  ];
-
   return (
     <section
       id="skills"
@@ -34,8 +21,8 @@ export default function Skills() {
           providing an exceptional user experience. I am eager to contribute my
           skills and grow as a full-stack developer on a team.
         </p>
-        <div className="flex flex-wrap gap-4 mt-7">
-          <ListTechIcons techList={techList} size={"12"} hasTitle={true} />
+        <div className="flex flex-wrap gap-4 mt-7 dark:text-white">
+          <ListTechIcons techList={fullTechList} size={"12"} hasTitle={true} />
         </div>
       </div>
     </section>
