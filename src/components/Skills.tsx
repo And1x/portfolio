@@ -13,9 +13,9 @@ export default function Skills() {
         </h1>
         <p className=" text-gray-700 dark:text-gray-300 sm:w-[65%] sm:text-xl text-center mt-4">
           I am an aspiring full-stack developer with a solid foundation in
-          various technologies, including Go, Typescript, PostgreSQL, React,
-          Tailwind and more Although I have no professional experience, I have
-          pursued personal projects and taken relevant courses to gain practical
+          various technologies, including Go, Typescript, PostgreSQL, React and
+          Tailwind. Although I have no professional experience, I have pursued
+          personal projects and taken relevant courses to gain practical
           knowledge of programming concepts and principles. I am committed to
           producing clean, efficient code and providing an exceptional user
           experience. I am eager to contribute my skills and grow as a
