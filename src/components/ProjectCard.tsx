@@ -5,8 +5,8 @@ import ListTechIcons from "./ListTechIcons";
 export default function ProjectCard({ project }: { project: Project }) {
   const projectId = project.title.replace(" ", "-");
   return (
-    <div className="bg-white dark:bg-slate-800 border dark:text-white min-w-[18rem] max-w-[25vw] p-2 shadow-lg border-slate-300 rounded dark:border-slate-600">
-      <div className="border-b pb-2 border-b-slate-400 dark:border-b-orange-400">
+    <div className="flex flex-col bg-white dark:bg-slate-800 border dark:text-white min-w-[18rem] max-w-[25vw] p-2 shadow-lg border-slate-300 rounded dark:border-slate-600">
+      <div className="pb-2">
         <h4 className="text-xl text-black dark:text-white">{project.title}</h4>
         <p className="p-1 text-gray-900 dark:text-gray-100">
           {project.content}
@@ -24,7 +24,7 @@ export default function ProjectCard({ project }: { project: Project }) {
         </div>
       </div>
 
-      <div className="border-b py-2 border-b-slate-400  dark:border-b-orange-400">
+      <div className="border-y py-2 border-y-slate-400  dark:border-y-orange-400 mt-auto">
         <div className="flex gap-2">
           <ListTechIcons techList={project.tech} size={"6"} hasTitle={false} />
         </div>

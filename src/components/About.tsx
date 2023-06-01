@@ -8,11 +8,9 @@ export default function About() {
         Hi, I am Andi.
       </h1>
       <h2 className="text-xl sm:text-3xl sm:max-w-3xl max-w-lg text-gray-700 dark:text-gray-300">
-        I enjoy developing applications using the latest technologies, whether
-        it's a web app, a CLI tool, or anything in between. I am particularly
-        interested in the world of Bitcoin and Nostr and have experience
-        developing projects in these areas. I would be happy to show you some of
-        my work!
+        I develop web applications and CLI tools using the latest technologies.
+        I focus on the world of Bitcoin and Nostr, I invite you to to explore my
+        work!
       </h2>
     </section>
   );

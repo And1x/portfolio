@@ -4,7 +4,7 @@ const projetcList: Project[] = [
   {
     title: "Pomodoro Work Tracker - CLI",
     content:
-      "Simple command-line interface(CLI) tool to set a pomodoro timer. Display daily/montly sessions. Completed session are automatically stored as monthly JSON files.",
+      "Simple command-line interface(CLI) tool to set a pomodoro timer. Display daily/montly sessions. It conveniently saves your tasks in monthly JSON files, enabling you to review and analyze your productivity over time keeps your task history easily accessible and organized.",
     img: {
       url: "/img/preview_project_pomodoro.png",
       alt: "Preview Project Pomodoro",
